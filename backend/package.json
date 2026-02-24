@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "Node.js Restful CRUD API with Node.js, Express and MongoDB",
   "main": "server.js",
-    "scripts": {
-     "test": "echo \"No tests specified\""
-  },
+  "scripts": {
+    "test": "echo \"No tests specified\""
   },
   "keywords": [
     "nodejs",
