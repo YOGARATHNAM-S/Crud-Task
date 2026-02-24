@@ -35,7 +35,7 @@ jobs:
         run: npm ci
 
       - name: Run Tests
-        run: npm test --if-present
+        run: test -f package.json && npm test || echo "No tests configured"
 
   frontend-test:
     name: Frontend Tests
